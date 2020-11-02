@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="seriesapp@localhost">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.18">
+    <root id="1">
+      <ServerVersion>10.14</ServerVersion>
+      <StartupTime>1599734671</StartupTime>
+    </root>
+    <database id="2" parent="1" name="api_wars">
+      <ObjectId>16867</ObjectId>
+      <Owner>csaba0411</Owner>
+    </database>
+    <database id="3" parent="1" name="ask_mate2">
+      <ObjectId>16422</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="4" parent="1" name="books">
+      <ObjectId>18368</ObjectId>
+      <Owner>csaba0411</Owner>
+    </database>
+    <database id="5" parent="1" name="codecooldb">
+      <ObjectId>16397</ObjectId>
+      <Owner>csaba0411</Owner>
+    </database>
+    <database id="6" parent="1" name="codecoolshop">
+      <ObjectId>18406</ObjectId>
+      <Owner>csaba0411</Owner>
+    </database>
+    <database id="7" parent="1" name="csaba0411">
+      <ObjectId>16385</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="8" parent="1" name="lastforpa">
+      <ObjectId>18085</ObjectId>
+      <Owner>csaba0411</Owner>
+    </database>
+    <database id="9" parent="1" name="pa">
+      <ObjectId>17996</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="10" parent="1" name="padata">
+      <ObjectId>17998</ObjectId>
+      <Owner>csaba0411</Owner>
+    </database>
+    <database id="11" parent="1" name="padatas">
+      <ObjectId>17995</ObjectId>
+      <Owner>csaba0411</Owner>
+    </database>
+    <database id="12" parent="1" name="postgres">
+      <ObjectId>13055</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="13" parent="1" name="practice">
+      <ObjectId>16497</ObjectId>
+      <Owner>csaba0411</Owner>
+    </database>
+    <database id="14" parent="1" name="proman">
+      <ObjectId>16910</ObjectId>
+      <Owner>csaba0411</Owner>
+    </database>
+    <database id="15" parent="1" name="seriesapp">
+      <ObjectId>19035</ObjectId>
+      <Owner>csaba0411</Owner>
+      <IntrospectionStateNumber>10992</IntrospectionStateNumber>
+      <Current>1</Current>
+    </database>
+    <database id="16" parent="1" name="springsecurity">
+      <ObjectId>21982</ObjectId>
+      <Owner>csaba0411</Owner>
+    </database>
+    <database id="17" parent="1" name="todoapp">
+      <ObjectId>21517</ObjectId>
+      <Owner>csaba0411</Owner>
+    </database>
+    <database id="18" parent="1" name="todolist">
+      <ObjectId>18390</ObjectId>
+      <Owner>csaba0411</Owner>
+    </database>
+    <role id="19" parent="1" name="csaba0411">
+      <ObjectId>16384</ObjectId>
+      <SuperRole>1</SuperRole>
+      <CreateDb>1</CreateDb>
+      <CreateRole>1</CreateRole>
+      <CanLogin>1</CanLogin>
+    </role>
+    <role id="20" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+    </role>
+    <role id="21" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+    </role>
+    <role id="22" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+    </role>
+    <role id="23" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+    </role>
+    <role id="24" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+    </role>
+    <role id="25" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <CreateDb>1</CreateDb>
+      <CreateRole>1</CreateRole>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <BypassRls>1</BypassRls>
+    </role>
+    <schema id="26" parent="15" name="information_schema">
+      <ObjectId>12764</ObjectId>
+      <StateNumber>353</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="27" parent="15" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+      <StateNumber>350</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="28" parent="15" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <StateNumber>351</StateNumber>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>10993</IntrospectionStateNumber>
+      <Current>1</Current>
+    </schema>
+    <access-method id="29" parent="15" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.bthandler</Handler>
+      <HandlerId>330</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="30" parent="15" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.hashhandler</Handler>
+      <HandlerId>331</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="31" parent="15" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.gisthandler</Handler>
+      <HandlerId>332</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="32" parent="15" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.ginhandler</Handler>
+      <HandlerId>333</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="33" parent="15" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.spghandler</Handler>
+      <HandlerId>334</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="34" parent="15" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.brinhandler</Handler>
+      <HandlerId>335</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <extension id="35" parent="15" name="plpgsql">
+      <ObjectId>13041</ObjectId>
+      <Comment>PL/pgSQL procedural language</Comment>
+      <StateNumber>505</StateNumber>
+      <Version>1.0</Version>
+      <SchemaName>pg_catalog</SchemaName>
+      <SchemaId>11</SchemaId>
+    </extension>
+    <language id="36" parent="15" name="c"/>
+    <language id="37" parent="15" name="internal"/>
+    <language id="38" parent="15" name="plpgsql"/>
+    <language id="39" parent="15" name="sql"/>
+    <sequence id="40" parent="28" name="hibernate_sequence">
+      <ObjectId>45155</ObjectId>
+      <StateNumber>10978</StateNumber>
+      <Owner>csaba0411</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint|0s</DataType>
+    </sequence>
+    <table id="41" parent="28" name="favourite_series">
+      <ObjectId>45157</ObjectId>
+      <Owner>csaba0411</Owner>
+      <StateNumber>10985</StateNumber>
+    </table>
+    <table id="42" parent="28" name="member">
+      <ObjectId>45162</ObjectId>
+      <Owner>csaba0411</Owner>
+      <StateNumber>10986</StateNumber>
+    </table>
+    <table id="43" parent="28" name="member_roles">
+      <ObjectId>45170</ObjectId>
+      <Owner>csaba0411</Owner>
+      <StateNumber>10986</StateNumber>
+    </table>
+    <table id="44" parent="28" name="voted_series">
+      <ObjectId>45173</ObjectId>
+      <Owner>csaba0411</Owner>
+      <StateNumber>10982</StateNumber>
+    </table>
+    <column id="45" parent="41" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>10979</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="46" parent="41" name="show_id">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>10979</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="47" parent="41" name="member_id">
+      <Position>3</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>10979</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="48" parent="41" name="favourite_series_pkey">
+      <ObjectId>45160</ObjectId>
+      <StateNumber>10979</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <index id="49" parent="41" name="uk_45yr0y1lus0hrqf95p9y2fic2">
+      <ObjectId>45178</ObjectId>
+      <StateNumber>10983</StateNumber>
+      <ColNames>show_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="50" parent="41" name="favourite_series_pkey">
+      <ObjectId>45161</ObjectId>
+      <StateNumber>10979</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>favourite_series_pkey</UnderlyingIndexName>
+    </key>
+    <key id="51" parent="41" name="uk_45yr0y1lus0hrqf95p9y2fic2">
+      <ObjectId>45179</ObjectId>
+      <StateNumber>10983</StateNumber>
+      <ColNames>show_id</ColNames>
+      <UnderlyingIndexName>uk_45yr0y1lus0hrqf95p9y2fic2</UnderlyingIndexName>
+    </key>
+    <foreign-key id="52" parent="41" name="fkql90ajdjrar9w8xl7vp185hux">
+      <ObjectId>45182</ObjectId>
+      <StateNumber>10985</StateNumber>
+      <ColNames>member_id</ColNames>
+      <RefTableId>45162</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>member</RefTableName>
+      <RefKeyName>member_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="53" parent="42" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>10980</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="54" parent="42" name="birth_date">
+      <Position>2</Position>
+      <DataType>date|0s</DataType>
+      <StateNumber>10980</StateNumber>
+      <TypeId>1082</TypeId>
+    </column>
+    <column id="55" parent="42" name="email">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>10980</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="56" parent="42" name="password">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>10980</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="57" parent="42" name="username">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>10980</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="58" parent="42" name="member_pkey">
+      <ObjectId>45168</ObjectId>
+      <StateNumber>10980</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <index id="59" parent="42" name="uk_gc3jmn7c2abyo3wf6syln5t2i">
+      <ObjectId>45180</ObjectId>
+      <StateNumber>10984</StateNumber>
+      <ColNames>username</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="60" parent="42" name="member_pkey">
+      <ObjectId>45169</ObjectId>
+      <StateNumber>10980</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>member_pkey</UnderlyingIndexName>
+    </key>
+    <key id="61" parent="42" name="uk_gc3jmn7c2abyo3wf6syln5t2i">
+      <ObjectId>45181</ObjectId>
+      <StateNumber>10984</StateNumber>
+      <ColNames>username</ColNames>
+      <UnderlyingIndexName>uk_gc3jmn7c2abyo3wf6syln5t2i</UnderlyingIndexName>
+    </key>
+    <column id="62" parent="43" name="member_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>10981</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="63" parent="43" name="roles">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>10981</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <foreign-key id="64" parent="43" name="fket63dfllh4o5qa9qwm7f5kx9x">
+      <ObjectId>45187</ObjectId>
+      <StateNumber>10986</StateNumber>
+      <ColNames>member_id</ColNames>
+      <RefTableId>45162</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>member</RefTableName>
+      <RefKeyName>member_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="65" parent="44" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>10982</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="66" parent="44" name="series_rating">
+      <Position>2</Position>
+      <DataType>double precision|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>10982</StateNumber>
+      <TypeId>701</TypeId>
+    </column>
+    <column id="67" parent="44" name="show_id">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>10982</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="68" parent="44" name="voted_series_pkey">
+      <ObjectId>45176</ObjectId>
+      <StateNumber>10982</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="69" parent="44" name="voted_series_pkey">
+      <ObjectId>45177</ObjectId>
+      <StateNumber>10982</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>voted_series_pkey</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>

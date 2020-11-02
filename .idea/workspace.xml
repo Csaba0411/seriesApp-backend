@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d5c70734-409a-469f-a72b-24af8b0e6074" name="Default Changelist" comment="tests bugfix" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Search" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fuK8rOautsVYcSejqan9RDB9EF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.codecool.seriesapp.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SeriesappApplication">
+    <configuration name="All in seriesapp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seriesapp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllRepositoryTest.memberIsPeristedWithFavouriteSeries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seriesapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codecool.seriesapp.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codecool.seriesapp.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.codecool.seriesapp.repository.AllRepositoryTest" />
+      <option name="METHOD_NAME" value="memberIsPeristedWithFavouriteSeries" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllRepositoryTest.saveMember" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seriesapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codecool.seriesapp.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codecool.seriesapp.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.codecool.seriesapp.repository.AllRepositoryTest" />
+      <option name="METHOD_NAME" value="saveMember" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllRepositoryTest.saveUniqueFieldTwice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seriesapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codecool.seriesapp.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codecool.seriesapp.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.codecool.seriesapp.repository.AllRepositoryTest" />
+      <option name="METHOD_NAME" value="saveUniqueFieldTwice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllRepositoryTest.saveVotedSeriesRating" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seriesapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codecool.seriesapp.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codecool.seriesapp.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.codecool.seriesapp.repository.AllRepositoryTest" />
+      <option name="METHOD_NAME" value="saveVotedSeriesRating" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeriesappApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="seriesapp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codecool.seriesapp.SeriesappApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in seriesapp" />
+        <item itemvalue="JUnit.AllRepositoryTest.memberIsPeristedWithFavouriteSeries" />
+        <item itemvalue="JUnit.AllRepositoryTest.saveMember" />
+        <item itemvalue="JUnit.AllRepositoryTest.saveUniqueFieldTwice" />
+        <item itemvalue="JUnit.AllRepositoryTest.saveVotedSeriesRating" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5c70734-409a-469f-a72b-24af8b0e6074" name="Default Changelist" comment="" />
+      <created>1597062380737</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597062380737</updated>
+      <workItem from="1597062393817" duration="784000" />
+      <workItem from="1597136415868" duration="571000" />
+      <workItem from="1597144638944" duration="85000" />
+      <workItem from="1597148569335" duration="5656000" />
+      <workItem from="1597167157877" duration="4181000" />
+      <workItem from="1597215608725" duration="12522000" />
+      <workItem from="1597252837792" duration="12865000" />
+      <workItem from="1597301046538" duration="5314000" />
+      <workItem from="1597318543595" duration="2592000" />
+      <workItem from="1597403172717" duration="581000" />
+      <workItem from="1597733925159" duration="156000" />
+      <workItem from="1598268883934" duration="16296000" />
+      <workItem from="1598336923717" duration="4338000" />
+      <workItem from="1598355839258" duration="18587000" />
+      <workItem from="1598426724263" duration="5947000" />
+      <workItem from="1598439621747" duration="16593000" />
+      <workItem from="1598511841876" duration="12549000" />
+      <workItem from="1598868751436" duration="5806000" />
+      <workItem from="1599549926241" duration="1329000" />
+      <workItem from="1599555009311" duration="1494000" />
+      <workItem from="1599562161888" duration="6000" />
+      <workItem from="1599566344856" duration="3659000" />
+      <workItem from="1599586565838" duration="3293000" />
+      <workItem from="1599591147032" duration="7430000" />
+      <workItem from="1599634146556" duration="1380000" />
+      <workItem from="1599638270836" duration="5353000" />
+      <workItem from="1599663418811" duration="17239000" />
+      <workItem from="1599722426356" duration="3379000" />
+      <workItem from="1599735534353" duration="5965000" />
+      <workItem from="1599807589205" duration="800000" />
+      <workItem from="1599821699027" duration="1487000" />
+      <workItem from="1600169068040" duration="262000" />
+      <workItem from="1600194376278" duration="9000" />
+      <workItem from="1600339654010" duration="60000" />
+      <workItem from="1604325924911" duration="1093000" />
+    </task>
+    <task id="LOCAL-00001" summary="sql changes">
+      <created>1598362049918</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598362049918</updated>
+    </task>
+    <task id="LOCAL-00002" summary="select query">
+      <created>1598461065786</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598461065786</updated>
+    </task>
+    <task id="LOCAL-00003" summary="select query">
+      <created>1598527369385</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598527369385</updated>
+    </task>
+    <task id="LOCAL-00004" summary="tests bugfix">
+      <created>1598534906062</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598534906062</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Clear System out printline">
+      <created>1604326813021</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604326813021</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sql changes" />
+    <MESSAGE value="select query" />
+    <MESSAGE value="tests bugfix" />
+    <MESSAGE value="Clear System out printline" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clear System out printline" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="125" y="196" width="800" height="712" key="#Plugins" timestamp="1598431420506">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="125" y="196" width="800" height="712" key="#Plugins/67.27.1853.1053@67.27.1853.1053" timestamp="1598431420506" />
+    <state x="588" y="214" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604326142081">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="214" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1604326142081" />
+    <state x="801" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1599671478617">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="801" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1599671478617" />
+    <state x="167" y="125" width="1653" height="855" key="DiffContextDialog" timestamp="1604327017786">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="167" y="125" width="1653" height="855" key="DiffContextDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1604327017786" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1600339715574">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1600339715574" />
+    <state x="67" y="27" width="1843" height="1053" key="FileDocumentManager.FileCacheConflict" timestamp="1598372668467">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="67" y="27" width="1843" height="1053" key="FileDocumentManager.FileCacheConflict/67.27.1853.1053@67.27.1853.1053" timestamp="1598372668467" />
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1604326541537">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1604326541537" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1604326541535">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1604326541535" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1604326541534">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1604326541534" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1604326541536">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1604326541536" />
+    <state width="1807" height="278" key="GridCell.Tab.1.bottom" timestamp="1604326541543">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1604326541543" />
+    <state width="1807" height="278" key="GridCell.Tab.1.center" timestamp="1604326541540">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1604326541540" />
+    <state width="1807" height="278" key="GridCell.Tab.1.left" timestamp="1604326541538">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1604326541538" />
+    <state width="1807" height="278" key="GridCell.Tab.1.right" timestamp="1604326541542">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1604326541542" />
+    <state x="576" y="289" width="824" height="526" key="IDE.errors.dialog" timestamp="1598285660681">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="576" y="289" width="824" height="526" key="IDE.errors.dialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598285660681" />
+    <state x="735" y="255" width="506" height="595" key="RollbackChangesDialog" timestamp="1598531765380">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="735" y="255" width="506" height="595" key="RollbackChangesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598531765380" />
+    <state x="588" y="274" width="800" height="556" key="Vcs.Push.Dialog.v2" timestamp="1604326822602">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="274" width="800" height="556" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1604326822602" />
+    <state x="764" y="467" width="448" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598460996895">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="764" y="467" width="448" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053@67.27.1853.1053" timestamp="1598460996895" />
+    <state x="67" y="130" width="909" height="592" key="new project wizard" timestamp="1597734092552">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="67" y="130" width="909" height="592" key="new project wizard/67.27.1853.1053@67.27.1853.1053" timestamp="1597734092552" />
+    <state x="689" y="310" width="598" height="485" key="refactoring.ChangeSignatureDialog" timestamp="1599675913992">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="689" y="310" width="598" height="485" key="refactoring.ChangeSignatureDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1599675913992" />
+    <state x="214" y="248" width="672" height="678" key="search.everywhere.popup" timestamp="1599555151674">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="214" y="248" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1599555151674" />
+  </component>
+</project>
